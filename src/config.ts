@@ -21,12 +21,12 @@ export const siteConfig: SiteConfig = {
   },
   favicon: [
     {
-      src: '/favicon/icon.png', // Path of the favicon, relative to the /public directory
+      src: '/favicon/favicon-light-128.png', // Path of the favicon, relative to the /public directory
       theme: 'light', // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
       sizes: '128x128', // (Optional) Size of the favicon, set only if you have favicons of different sizes
     },
     {
-      src: '/favicon/icon.png', // Path of the favicon, relative to the /public directory
+      src: '/favicon/favicon-dark-128.png', // Path of the favicon, relative to the /public directory
       theme: 'dark', // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
       sizes: '128x128', // (Optional) Size of the favicon, set only if you have favicons of different sizes
     },
@@ -48,8 +48,8 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
   avatar: 'assets/images/demo-avatar.png', // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-  name: '秋星海(あき_ほしみ)',
-  bio: ' Go to the future',
+  name: '秋星海(あき ほしみ)',
+  bio: 'Go to the future',
   links: [
     {
       name: 'Twitter',

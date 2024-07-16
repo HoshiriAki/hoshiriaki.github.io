@@ -1,13 +1,26 @@
 ---
 
-import {profileConfig} from "../config";
-
+import { profileConfig } from '../config'
 ---
 
 <div class="card-base max-w-[var(--page-width)] min-h-[4.5rem] rounded-b-none mx-auto flex items-center px-6">
     <div class="transition text-50 text-sm">
         © 2024 {profileConfig.name}. All Rights Reserved.
         <br>
-        Powered by <a class="link text-[var(--primary)] font-medium" target="_blank" href="https://github.com/saicaca/fuwari">Fuwari</a>
+        <a class="link text-[var(--primary)] font-medium" target="_blank" href="https://hitokoto.cn"><span id="hitokoto-quote"></span></a>
     </div>
 </div>
+
+<script>
+// 从 hitokoto API 获取一句随机的语句
+fetch('https://v1.hitokoto.cn/?c=a&c=b&c=d&c=i&c=k')
+    .then(response => response.json())
+    .then(data => {
+        // 构建语句和来源格式
+        let authorPart = data.from_who ? `${data.from_who}` : '';
+        const formattedHitokoto = `"${data.hitokoto}" —— 《${data.from}》${authorPart}`;
+        // 在页面上显示语句
+        document.getElementById('hitokoto-quote').textContent = formattedHitokoto;
+    })
+    .catch(error => console.error('Error fetching hitokoto:', error));
+</script>

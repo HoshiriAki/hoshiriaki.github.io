@@ -1,15 +1,17 @@
 ---
 title: The singularity of everythings
 published: 2024-07-16
-description: 'The everythings' beginning of Mine'
+description: 'The everythings beginning of Mine'
 image: ''
-tags: []
-category: ''
+tags: [The Respwan]
+category: 'Essay'
 draft: false 
 ---
 
 Hi~你好！
+
 很高兴你能看到这篇文章！
+
 这个网页的界面和功能都是开源社区的，是别人写出来的，除了一些可能额外添加的功能外，它的一切都与我没有任何关系，我只是借用一下，待我自己的网页的一切都准备就绪时，这个域名可能会直接带你到新的网站。但，在那之前，我会在这个博客发表我的学习记录等。
 
 想必你应该是看到了这篇文章的标题才进来的，可能你无法理解我为什么会起这么一个标题，在接下来的内容里我会解释这一切。
