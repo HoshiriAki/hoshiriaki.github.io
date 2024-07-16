@@ -15,18 +15,18 @@ export const siteConfig: SiteConfig = {
     fixed: false, // Hide the theme color picker for visitors
   },
   banner: {
-    enable: true,
+    enable: false,
     src: 'assets/images/demo-banner.png', // Relative to the /src directory. Relative to the /public directory if it starts with '/'
     position: 'center', // Equivalent to object-position, defaults center
   },
   favicon: [
     {
-      src: '/favicon/icon_l.png', // Path of the favicon, relative to the /public directory
+      src: '/favicon/icon.png', // Path of the favicon, relative to the /public directory
       theme: 'light', // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
       sizes: '128x128', // (Optional) Size of the favicon, set only if you have favicons of different sizes
     },
     {
-      src: '/favicon/icon_d.png', // Path of the favicon, relative to the /public directory
+      src: '/favicon/icon.png', // Path of the favicon, relative to the /public directory
       theme: 'dark', // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
       sizes: '128x128', // (Optional) Size of the favicon, set only if you have favicons of different sizes
     },
@@ -48,8 +48,8 @@ export const navBarConfig: NavBarConfig = {
 
 export const profileConfig: ProfileConfig = {
   avatar: 'assets/images/demo-avatar.png', // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-  name: 'Hoshimi Aki',
-  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  name: '秋星海(あき　ほしみ)',
+  bio: ' Go to the future',
   links: [
     {
       name: 'Twitter',

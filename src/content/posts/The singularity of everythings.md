@@ -1,7 +1,7 @@
 ---
 title: The singularity of everythings
 published: 2024-07-16
-description: ''
+description: 'The everythings' beginning of Mine'
 image: ''
 tags: []
 category: ''
