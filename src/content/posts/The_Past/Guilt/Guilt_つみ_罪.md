@@ -5,7 +5,7 @@ description: '关于我的过去与现在的我的事#1'
 image: ''
 tags: [Inexcusably Things]
 category: 'The Past'
-draft: true 
+draft: false 
 ---
 :::warning
 此文章可能会引起不适，请谨慎阅读。
@@ -13,9 +13,8 @@ draft: true
 :::
 
 <p style="text-align: center;">如题，这大概是一篇关于过去的文章，关于如今的自己能否原谅曾经的自己的事情。</p>
-
-<h4><p style="text-align: center;">其一、“爱”</p></h4>
 <br>
+<h4><p style="text-align: center;">其一、“爱”</p></h4>
 
 感觉自己一直在乞讨一种叫做“爱”的东西，在尚未得到时将它视为无比珍贵的物件，当我得到以后，却又不习惯，亦或者称为不满意这样的“爱”。
 在一次偶然中，觉得这个人所能带给我的“爱”或许是我想要的，因此毅然决然的抛弃了刚到手的另一份“爱”。
@@ -39,4 +38,8 @@ draft: true
 
 真是恶心至极。
 
-#### 其二、欺骗
+<h4><p style="text-align: center;">其二、欺骗</p></h4>
+
+这只是因为突然想起来自己曾骗了同学五十块钱，本答应他的事情我没有实现，我私吞了这五十块钱。既然想起来了总是要还的，我一定会还的。
+
+这里大概还会有别的事情，就先空着。
