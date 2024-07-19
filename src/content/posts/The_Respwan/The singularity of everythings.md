@@ -3,8 +3,8 @@ title: The singularity of everythings
 published: 2024-07-16
 description: 'The everythings beginning of Mine'
 image: ''
-tags: [The Respwan]
-category: 'Essay'
+tags: [Essay]
+category: 'The Respwan'
 draft: false 
 ---
 
