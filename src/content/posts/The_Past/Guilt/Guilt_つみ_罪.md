@@ -22,7 +22,7 @@ draft: true
 应该是从“<HS>”那时开始的，直到几天前一直沉浸于这样的行为/错误里。
 这才是真正的错误吧。
 
-<img src="https://www.jianguoyun.com/c/tblv2/BqrYxWQziNcsQb7V1YjinFJjIBtY2qxTLjj_zb8MeIW78SnUhwjTMLFvY-MIr7dKg4XI7e_0/Kz75UdSRwqYExaaCB7s0wbByE1_LtlNfiX7OjoDUL-8/l">
+<img src="https://github.com/HoshiriAki/hoshiriaki.github.io/blob/main/src/content/posts/The_Past/Guilt/1.png?raw=true">
 
 这个问题以现在的结论来描述的话大概是这样的的吧：
 有两台我最喜欢的电脑，一台已经维修了许多次老的不行的电脑，另一台是新买的配置最新的笔记本电脑，但我只能带一个走，我该带哪个？
