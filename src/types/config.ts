@@ -1,4 +1,4 @@
-import type { LIGHT_MODE, DARK_MODE, AUTO_MODE } from "@constants/constants"
+import type { AUTO_MODE, DARK_MODE, LIGHT_MODE } from '@constants/constants'
 
 export type SiteConfig = {
   title: string
@@ -29,6 +29,7 @@ export enum LinkPreset {
   Home = 0,
   Archive = 1,
   About = 2,
+  Calendar = 3,
 }
 
 export type NavBarLink = {
@@ -58,4 +59,7 @@ export type LicenseConfig = {
   url: string
 }
 
-export type LIGHT_DARK_MODE = typeof LIGHT_MODE | typeof DARK_MODE | typeof AUTO_MODE
+export type LIGHT_DARK_MODE =
+  | typeof LIGHT_MODE
+  | typeof DARK_MODE
+  | typeof AUTO_MODE

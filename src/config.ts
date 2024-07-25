@@ -37,11 +37,7 @@ export const navBarConfig: NavBarConfig = {
   links: [
     LinkPreset.Home,
     LinkPreset.Archive,
-    {
-      name: '日程',
-      url: 'http://blog.project-hoshizora.cn/about/', // Internal links should not include the base path, as it is automatically added
-      external: false, // Show an external link icon and will open in a new tab
-    },
+    LinkPreset.Calendar,
     LinkPreset.About,
     {
       name: 'GitHub',
