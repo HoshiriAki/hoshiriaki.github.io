@@ -1,0 +1,9 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+    font-style: normal;
+    font-family: 'Harmony_Regular';
+    src: url('../fonts/HarmonyOS_Sans_Regular.ttf') format('truetype');
+}
