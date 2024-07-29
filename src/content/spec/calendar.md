@@ -1,8 +1,41 @@
-# 日程
-<blockquote class="admonition bdm-important"><span class="bdm-title"><div>此日程实时同步于Outlook</div></span></blockquote>
-<iframe id="open-web-calendar" 
-    style="background:url('https://raw.githubusercontent.com/niccokunzmann/open-web-calendar/master/static/img/loaders/circular-loader.gif') center center no-repeat;"
-    src="https://icsviewer.ecam.fr/calendar.html?controls=next&controls=previous&controls=today&language=zh_Hans&loader=&starting_hour=5&style-event-status-cancelled=true&style-event-status-confirmed=true&style-event-status-tentative=true&tab=week&url=https%3A%2F%2Foutlook.live.com%2Fowa%2Fcalendar%2F00000000-0000-0000-0000-000000000000%2F4207f7ef-6b5f-468a-a1b4-ce39773d5953%2Fcid-BABF184A6CFD00D5%2Fcalendar.ics"
-    sandbox="allow-scripts allow-same-origin allow-top-navigation"
-    allowTransparency="true" scrolling="no" 
-    frameborder="0" height="500px" width="100%"></iframe>
+# 日程（参考）
+<blockquote class="admonition bdm-important"><span class="bdm-title"><div>以下为2024年8月的日程安排参考</div></span></blockquote>
+
+**周一至周五（工作日）**
+- **15:00 - 16:00**：起床，个人卫生
+- **16:00 - 17:00**：早餐
+- **17:00 - 19:00**：英语学习（CET四级准备）
+- **19:00 - 21:00**：高等数学学习（寻找切入点和路线图）
+- **21:00 - 23:00**：日语（一三五）/俄语学习（二四）
+- **23:00 - 00:00**：休息
+- **00:00 - 01:00**：晚餐
+- **01:00 - 03:00**：绘画入门
+- **03:00 - 05:00**：乐理学习
+- **05:00 - 07:00**：
+- **07:00 - 08:00**：复习当天所学，整理笔记(寻找最合适自己的笔记方式，建立高效的标记格式，建立清晰的命名格式)
+- **08:00**：就寝
+
+**周六（语言强化日）**
+- **15:00 - 16:00**：起床，个人卫生
+- **16:00 - 17:00**：早餐
+- **17:00 - 21:00**：英语集中学习（模拟测试或额外阅读）
+- **21:00 - 23:00**：日语或俄语深入学习（文化课程或电影/书籍）
+- **23:00 - 00:00**：休息
+- **00:00 - 01:00**：晚餐
+- **01:00 - 03:00**：绘画或乐理学习
+- **03:00 - 05:00**：
+- **05:00 - 07:00**：复习与规划，寻找最合适自己的笔记方式，建立高效的标记格式，建立清晰的命名格式
+- **07:00 - 08:00**：准备第二天
+- **08:00**：就寝
+
+**周日（休息与反思日）**
+- **15:00 - 16:00**：起床，个人卫生
+- **16:00 - 17:00**：早餐
+- **17:00 - 21:00**：自由时间，可以用于兴趣爱好或者补足任何未完成的任务
+- **21:00 - 23:00**：休息
+- **23:00 - 00:00**：晚餐
+- **00:00 - 02:00**：反思本周进度，调整计划
+- **02:00 - 04:00**：轻松的活动，如阅读或观看电影
+- **04:00 - 06:00**：准备下一周，整理物品
+- **06:00 - 07:00**：复习与规划
+- **07:00 - 08:00**：就寝
