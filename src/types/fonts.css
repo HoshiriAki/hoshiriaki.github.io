@@ -3,7 +3,27 @@
 @import 'tailwindcss/utilities';
 
 @font-face {
-    font-style: normal;
     font-family: 'Harmony_Regular';
-    src: url('https://www.jianguoyun.com/c/dl-file/HarmonyOS_Sans_SC_Regular.ttf?dt=she1lb&sd=fxvo8&kv=YXNoX2N4eUBvdXRsb29rLmNvbQ&vr=1&ud=2HB5aDBwCmJ5YgXXZBIIdsMtXNM2NHosJO4PNVPjCmw') format('truetype');
-}
+    font-style: normal;
+    font-weight: 400; /* Normal weight */
+    src: url('/fonts/HarmonyOS_Sans_SC_Regular.ttf') format('truetype');
+  }
+  
+@font-face {
+    font-family: 'Harmony_Regular';
+    font-style: normal;
+    font-weight: 100; /* Thin weight */
+    src: url('/fonts/HarmonyOS_Sans_SC_Thin.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'AWAVE';
+    font-style: normal; /* 斜体字体 */
+    font-weight: 400; /* 常规重量 */
+    src: url('/fonts/AWAVE-Regular.otf') format('opentype');
+  }
+@font-face {
+    font-family: 'AWAVE_Italic';
+    font-style: italic; /* 斜体字体 */
+    font-weight: 400; /* 常规重量 */
+    src: url('/fonts/AWAVE-Italics-Regular.otf') format('opentype');
+  }
