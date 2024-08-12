@@ -53,21 +53,26 @@ export const profileConfig: ProfileConfig = {
   bio: 'Go to the future',
   links: [
     {
-      name: 'Twitter',
-      icon: 'fa6-brands:twitter', // Visit https://icones.js.org/ for icon codes
+      name: 'X(Twitter)',
+      icon: 'fa6-brands:square-x-twitter', // Visit https://icones.js.org/collection/fa6-brands for icon codes
       // You will need to install the corresponding icon set if it's not already included
       // `pnpm add @iconify-json/<icon-set-name>`
-      url: 'https://twitter.com',
+      url: 'https://x.com/Hoshiri_Aki',
     },
     {
       name: 'Steam',
       icon: 'fa6-brands:steam',
-      url: 'https://store.steampowered.com',
+      url: 'https://steamcommunity.com/id/Hoshiri_Sama/',
     },
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',
       url: 'https://github.com/HoshiriAki',
+    },
+    {
+      name: 'Mail',
+      icon: 'material-symbols:mail',
+      url: 'mailto:Hoshiriakie@gmail.com',
     },
   ],
 }
