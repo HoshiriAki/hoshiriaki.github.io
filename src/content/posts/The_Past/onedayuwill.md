@@ -63,7 +63,10 @@ draft: false
 
 当然这次也是会写的，因为是逃不掉的，因为理性长时间模拟的感性会把真正的感性给“吸引”出来。
 
-但这次我想尝试从客观写，以第三者的角度去观察“愚蠢的我”是如何因“爱”失智的。
+但这次我想尝试从客观写，以第三者的角度去观察“愚笨的我”是如何因“爱”失智的。
+
+> 2024/08/21补充：<br>
+  随着我对于心理学知识的不断了解，如今我大致能明白曾经的自己为何如此的“依赖”于“爱”这个定义模糊的概念了，但不做定论，毕竟我还是外行人，自己明白是什么就行了。
 <div class="border-[var(--line-divider)] border-dashed border-b-[1px] mb-5" data-astro-source-file="F:/Hoshiblog/hoshiriaki.github.io/src/pages/posts/[...slug].astro" data-astro-source-loc="91:40"></div>
 <center>
 <h4>"人都会因盲目的爱而失智."</h4>
@@ -107,9 +110,9 @@ draft: false
 
 ......
 
-(关于这篇短文我实在没有头绪去书写剩下的部分，关于我自身的评价和推理也始终没有决断性的事件支持而忽左忽右的，因为对事物的客观评价需要充分的依据支撑，所以无论再往下写，结果都是主观意见，都是不被认可的。所以剩下的部分未来再补充吧。)
+>关于这篇短文我实在没有头绪去书写剩下的部分，关于我自身的评价和推理也始终没有决断性的事件支持而忽左忽右的，因为对事物的客观评价需要充分的依据支撑，所以无论再往下写，结果都是主观意见，都是不被认可的。所以剩下的部分未来再补充吧。
 
-(补充：关于标题，并非说那段感情没有带给我幸福，而是我无法通过回忆去区分哪些是她带给我的幸福。)
+>补充：<br>关于小标题：并非说那段感情没有带给我幸福，而是我无法通过回忆去区分哪些是她带给我的幸福。
 <div class="border-[var(--line-divider)] border-dashed border-b-[1px] mb-5" data-astro-source-file="F:/Hoshiblog/hoshiriaki.github.io/src/pages/posts/[...slug].astro" data-astro-source-loc="91:40"></div>
 <center>
 文章占位符#1
@@ -119,7 +122,7 @@ draft: false
 文章占位符#2
 </center>
 <div class="border-[var(--line-divider)] border-dashed border-b-[1px] mb-5" data-astro-source-file="F:/Hoshiblog/hoshiriaki.github.io/src/pages/posts/[...slug].astro" data-astro-source-loc="91:40"></div>
-关于这两个占位符，经常被我的文章“强奸”的朋友应该知道我会写什么。因为光第一篇和前面的部分就写了五小时，现在天亮了没有思绪写这些东西了。有缘的晚上再补上。（2024/08/13 AM6:01）
+（2024/08/13 AM 6:01）
 
 
 
