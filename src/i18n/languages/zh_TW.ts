@@ -6,7 +6,7 @@ export const zh_TW: Translation = {
   [Key.about]: '關於',
   [Key.archive]: '彙整',
   [Key.search]: '搜尋',
-  [Key.calendar]: '日曆',
+  [Key.calendar]: '待辦與日程',
 
   [Key.tags]: '標籤',
   [Key.categories]: '分類',

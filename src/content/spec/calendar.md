@@ -1,43 +1,269 @@
-# 日程（参考）
+<style>
+  .contains-task-list .task-list-item {
+    --text: var(--tw-prose-headings);
+    --check: var(--primary);
+    --disabled: #C3C8DE;
+    --border-radius: 10px;
+    border-radius: var(--border-radius);
+    position: relative;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 30px auto;
+    align-items: center;
+  }
+  .contains-task-list .task-list-item span {
+    color: var(--text);
+    position: relative;
+    cursor: pointer;
+    display: grid;
+    align-items: center;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    transition: color 0.3s ease;
+  }
+  .contains-task-list .task-list-item span::before,
+  .contains-task-list .task-list-item span::after {
+    content: "";
+    position: absolute;
+  }
+  .contains-task-list .task-list-item span::before {
+    height: 2px;
+    width: 8px;
+    left: -27px;
+    background: var(--check);
+    border-radius: 2px;
+    transition: background 0.3s ease;
+  }
+  .contains-task-list .task-list-item span:after {
+    height: 4px;
+    width: 4px;
+    top: 8px;
+    left: -25px;
+    border-radius: 50%;
+  }
+  .contains-task-list .task-list-item input[type=checkbox] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: relative;
+    height: 15px;
+    width: 15px;
+    outline: none;
+    border: 0;
+    margin: 0 15px 0 0;
+    cursor: default;
+    background: var(--background);
+    display: grid;
+    align-items: center;
+  }
+  .contains-task-list .task-list-item input[type=checkbox]::before, .contains-task-list .task-list-item input[type=checkbox]::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    top: auto;
+    background: var(--check);
+    border-radius: 2px;
+  }
+  .contains-task-list .task-list-item input[type=checkbox]::before {
+    width: 0px;
+    right: 60%;
+    transform-origin: right bottom;
+  }
+  .contains-task-list .task-list-item input[type=checkbox]::after {
+    width: 0px;
+    left: 40%;
+    transform-origin: left bottom;
+  }
+  .contains-task-list .task-list-item input[type=checkbox]:checked::before {
+    -webkit-animation: check-01-11 0.4s ease forwards;
+            animation: check-01-11 0.4s ease forwards;
+  }
+  .contains-task-list .task-list-item input[type=checkbox]:checked::after {
+    -webkit-animation: check-02-11 0.4s ease forwards;
+            animation: check-02-11 0.4s ease forwards;
+  }
+  .contains-task-list .task-list-item input[type=checkbox]:checked + span {
+    color: var(--disabled);
+    -webkit-animation: move-11 0.3s ease 0.1s forwards;
+            animation: move-11 0.3s ease 0.1s forwards;
+  }
+  .contains-task-list .task-list-item input[type=checkbox]:checked + span::before {
+    background: var(--disabled);
+    -webkit-animation: slice-11 0.4s ease forwards;
+            animation: slice-11 0.4s ease forwards;
+  }
+  .contains-task-list .task-list-item input[type=checkbox]:checked + span::after {
+    -webkit-animation: firework-11 0.5s ease forwards 0.1s;
+            animation: firework-11 0.5s ease forwards 0.1s;
+  }
+
+  @-webkit-keyframes move-11 {
+    50% {
+      padding-left: 8px;
+      padding-right: 0px;
+    }
+    100% {
+      padding-right: 4px;
+    }
+  }
+
+  @keyframes move-11 {
+    50% {
+      padding-left: 8px;
+      padding-right: 0px;
+    }
+    100% {
+      padding-right: 4px;
+    }
+  }
+  @-webkit-keyframes slice-11 {
+    60% {
+      width: 100%;
+      left: 4px;
+    }
+    100% {
+      width: 100%;
+      left: -2px;
+      padding-left: 0;
+    }
+  }
+  @keyframes slice-11 {
+    60% {
+      width: 100%;
+      left: 4px;
+    }
+    100% {
+      width: 100%;
+      left: -2px;
+      padding-left: 0;
+    }
+  }
+  @-webkit-keyframes check-01-11 {
+    0% {
+      width: 4px;
+      top: auto;
+      transform: rotate(0);
+    }
+    50% {
+      width: 0px;
+      top: auto;
+      transform: rotate(0);
+    }
+    51% {
+      width: 0px;
+      top: 8px;
+      transform: rotate(45deg);
+    }
+    100% {
+      width: 5px;
+      top: 8px;
+      transform: rotate(45deg);
+    }
+  }
+  @keyframes check-01-11 {
+    0% {
+      width: 4px;
+      top: auto;
+      transform: rotate(0);
+    }
+    50% {
+      width: 0px;
+      top: auto;
+      transform: rotate(0);
+    }
+    51% {
+      width: 0px;
+      top: 8px;
+      transform: rotate(45deg);
+    }
+    100% {
+      width: 5px;
+      top: 8px;
+      transform: rotate(45deg);
+    }
+  }
+  @-webkit-keyframes check-02-11 {
+    0% {
+      width: 4px;
+      top: auto;
+      transform: rotate(0);
+    }
+    50% {
+      width: 0px;
+      top: auto;
+      transform: rotate(0);
+    }
+    51% {
+      width: 0px;
+      top: 8px;
+      transform: rotate(-45deg);
+    }
+    100% {
+      width: 10px;
+      top: 8px;
+      transform: rotate(-45deg);
+    }
+  }
+  @keyframes check-02-11 {
+    0% {
+      width: 4px;
+      top: auto;
+      transform: rotate(0);
+    }
+    50% {
+      width: 0px;
+      top: auto;
+      transform: rotate(0);
+    }
+    51% {
+      width: 0px;
+      top: 8px;
+      transform: rotate(-45deg);
+    }
+    100% {
+      width: 10px;
+      top: 8px;
+      transform: rotate(-45deg);
+    }
+  }
+  @-webkit-keyframes firework-11 {
+    0% {
+      opacity: 1;
+      box-shadow: 0 0 0 -2px var(--primary), 0 0 0 -2px var(--primary), 0 0 0 -2px var(--primary), 0 0 0 -2px var(--primary), 0 0 0 -2px var(--primary), 0 0 0 -2px var(--primary);
+    }
+    30% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      box-shadow: 0 -15px 0 0px var(--primary), 14px -8px 0 0px var(--primary), 14px 8px 0 0px var(--primary), 0 15px 0 0px var(--primary), -14px 8px 0 0px var(--primary), -14px -8px 0 0px var(--primary);
+    }
+  }
+  @keyframes firework-11 {
+    0% {
+      opacity: 1;
+      box-shadow: 0 0 0 -2px var(--primary), 0 0 0 -2px var(--primary), 0 0 0 -2px var(--primary), 0 0 0 -2px var(--primary), 0 0 0 -2px var(--primary), 0 0 0 -2px var(--primary);
+    }
+    30% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      box-shadow: 0 -15px 0 0px var(--primary), 14px -8px 0 0px var(--primary), 14px 8px 0 0px var(--primary), 0 15px 0 0px var(--primary), -14px 8px 0 0px var(--primary), -14px -8px 0 0px var(--primary);
+    }
+  }
+</style>
+
+# 待办与日程
+
+以下待办，优先度自上而下递减，每周更新：
+- [ ] <span>完成8月期的阶段修正计划</span>
+- [ ] <span>做完美的少战的语音包(War Thunder)</span>
+- [ ] <span>使网站更加个性化</span>
+- [ ] <span>为网站添加“多语言”功能</span>
+- [ ] <span>为自己活着</span>
 <blockquote class="admonition bdm-important"><span class="bdm-title"><div>以下为2024年8月的日程安排参考</div></span></blockquote>
 
 ****
 
-**周一至周五（工作日）**
-- **15:00 - 16:00**：起床，个人卫生
-- **16:00 - 17:00**：早餐
-- **17:00 - 19:00**：英语学习（CET四级准备）
-- **19:00 - 21:00**：高等数学学习（寻找切入点和路线图）
-- **21:00 - 23:00**：日语（一三五）/俄语学习（二四）
-- **23:00 - 00:00**：休息
-- **00:00 - 01:00**：晚餐
-- **01:00 - 03:00**：绘画入门
-- **03:00 - 05:00**：乐理学习
-- **05:00 - 07:00**：
-- **07:00 - 08:00**：复习当天所学，整理笔记(寻找最合适自己的笔记方式，建立高效的标记格式，建立清晰的命名格式)
-- **08:00**：就寝
 ****
-**周六（语言强化日）**
-- **15:00 - 16:00**：起床，个人卫生
-- **16:00 - 17:00**：早餐
-- **17:00 - 21:00**：英语集中学习（模拟测试或额外阅读）
-- **21:00 - 23:00**：日语或俄语深入学习（文化课程或电影/书籍）
-- **23:00 - 00:00**：休息
-- **00:00 - 01:00**：晚餐
-- **01:00 - 03:00**：绘画或乐理学习
-- **03:00 - 05:00**：
-- **05:00 - 07:00**：复习与规划，寻找最合适自己的笔记方式，建立高效的标记格式，建立清晰的命名格式
-- **07:00 - 08:00**：准备第二天
-- **08:00**：就寝
-****
-**周日（休息与反思日）**
-- **15:00 - 16:00**：起床，个人卫生
-- **16:00 - 17:00**：早餐
-- **17:00 - 21:00**：自由时间，可以用于兴趣爱好或者补足任何未完成的任务
-- **21:00 - 23:00**：休息
-- **23:00 - 00:00**：晚餐
-- **00:00 - 02:00**：反思本周进度，调整计划
-- **02:00 - 04:00**：轻松的活动，如阅读或观看电影
-- **04:00 - 06:00**：准备下一周，整理物品
-- **06:00 - 07:00**：复习与规划
-- **07:00 - 08:00**：就寝
