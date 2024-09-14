@@ -257,22 +257,33 @@
 # 待办与日程
 
 以下待办，优先度自上而下递减，每周更新：
-- [ ] <span>完成8月期的阶段修正计划</span>
-- [ ] <span>做完美的少战的语音包(War Thunder)</span>
+- [ ] <span>撰写“震旦-四年一学期(24/9-25/1)”的阶段修正计划</span>
+- [ ] <span>做完美的少战的语音包(War Thunder)，初试效果，在爱发电创建捐赠计划</span>
 - [ ] <span>使网站更加个性化</span>
 - [ ] <span>为网站添加“多语言”功能</span>
 - [ ] <span>为自己活着</span>
-<blockquote class="admonition bdm-important"><span class="bdm-title"><div>以下为2024年8月的日程安排参考</div></span></blockquote>
+<blockquote class="admonition bdm-important"><span class="bdm-title"><div>以下为2024年9月的日程安排参考</div></span></blockquote>
 
 ****
 
-以下为 8 月计划，最高优先级：
+以下为 震旦-四年一学期(24/9-25/1) 计划，最高优先级：
+- [ ] <span></span>
+- [ ] <span></span>
+- [ ] <span></span>
+- [ ] <span></span>
+- [ ] <span>绘画(入门)。</span>
+- [ ] <span>寻找最合适自己的笔记方式，建立高效的标记格式，建立清晰的命名格式。</span>
+- [ ] <span>上述目标包括本目标在计划过期前必须至少完成 4 个。</span>
+
+****
+
+以下为过去的 24-8 月计划，最高优先级：
 - [x] <span>重拾应试英语，目标为CET四级。</span>
 - [x] <span>同时学习日语及俄语，CET四级通过之前，无考试要求，能够日常交流即可。</span>
 - [x] <span>寻找学习高等数学的切入点，完善高数学习路线。</span>
 - [ ] <span>规划时间表，使自己习惯规划生活。</span>
 - [ ] <span>绘画(入门)。</span>
 - [ ] <span>寻找最合适自己的笔记方式，建立高效的标记格式，建立清晰的命名格式。</span>
-- [ ] <span>上述目标包括本目标在计划过期前必须至少完成 4 个。</span>
+- [x] <span>上述目标包括本目标在计划过期前必须至少完成 4 个。</span>
 
 ****
