@@ -5,16 +5,18 @@
 @font-face {
   font-family: 'Harmony_Regular';
   font-style: normal;
+  /* 常规字体 */
   font-weight: 400;
-  /* Normal weight */
+  /* 常规字重 */
   src: url('/fonts/HarmonyOS_Sans_SC_Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Harmony_Regular';
   font-style: normal;
+  /* 常规字体 */
   font-weight: 100;
-  /* Thin weight */
+  /* 轻字重 */
   src: url('/fonts/HarmonyOS_Sans_SC_Thin.ttf') format('truetype');
 }
 
@@ -23,7 +25,7 @@
   font-style: normal;
   /* 常规字体 */
   font-weight: 400;
-  /* 常规重量 */
+  /* 常规字重 */
   src: url('/fonts/AWAVE-Regular.otf') format('opentype');
 }
 
@@ -32,7 +34,7 @@
   font-style: italic;
   /* 斜体字体 */
   font-weight: 400;
-  /* 常规重量 */
+  /* 常规字重 */
   src: url('/fonts/AWAVE-Italics-Regular.otf') format('opentype');
 }
 

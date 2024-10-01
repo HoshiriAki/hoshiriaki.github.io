@@ -6,8 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        mono: ['FiraCode', 'monospace'],
         sans: [
-          'FiraCode',
           'Harmony_Regular',
           'Roboto',
           'sans-serif',
