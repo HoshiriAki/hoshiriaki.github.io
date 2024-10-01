@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: [
+          'FiraCode',
           'Harmony_Regular',
           'Roboto',
           'sans-serif',

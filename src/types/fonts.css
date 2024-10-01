@@ -3,27 +3,44 @@
 @import 'tailwindcss/utilities';
 
 @font-face {
-    font-family: 'Harmony_Regular';
-    font-style: normal;
-    font-weight: 400; /* Normal weight */
-    src: url('/fonts/HarmonyOS_Sans_SC_Regular.ttf') format('truetype');
-  }
-  
+  font-family: 'Harmony_Regular';
+  font-style: normal;
+  font-weight: 400;
+  /* Normal weight */
+  src: url('/fonts/HarmonyOS_Sans_SC_Regular.ttf') format('truetype');
+}
+
 @font-face {
-    font-family: 'Harmony_Regular';
-    font-style: normal;
-    font-weight: 100; /* Thin weight */
-    src: url('/fonts/HarmonyOS_Sans_SC_Thin.ttf') format('truetype');
-  }
+  font-family: 'Harmony_Regular';
+  font-style: normal;
+  font-weight: 100;
+  /* Thin weight */
+  src: url('/fonts/HarmonyOS_Sans_SC_Thin.ttf') format('truetype');
+}
+
 @font-face {
-    font-family: 'AWAVE';
-    font-style: normal; /* 斜体字体 */
-    font-weight: 400; /* 常规重量 */
-    src: url('/fonts/AWAVE-Regular.otf') format('opentype');
-  }
+  font-family: 'AWAVE';
+  font-style: normal;
+  /* 常规字体 */
+  font-weight: 400;
+  /* 常规重量 */
+  src: url('/fonts/AWAVE-Regular.otf') format('opentype');
+}
+
 @font-face {
-    font-family: 'AWAVE_Italic';
-    font-style: italic; /* 斜体字体 */
-    font-weight: 400; /* 常规重量 */
-    src: url('/fonts/AWAVE-Italics-Regular.otf') format('opentype');
-  }
+  font-family: 'AWAVE_Italic';
+  font-style: italic;
+  /* 斜体字体 */
+  font-weight: 400;
+  /* 常规重量 */
+  src: url('/fonts/AWAVE-Italics-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'FiraCode';
+  font-style: normal;
+  /* 常规字体 */
+  font-weight: 400;
+  /* 常规重量 */
+  src: url('/fonts/FiraCode_Retina.ttf') format('opentype');
+}
