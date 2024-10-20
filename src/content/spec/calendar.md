@@ -257,23 +257,41 @@
 # 待办与日程
 
 以下待办，优先度自上而下递减，每周更新：
-- [ ] <span>撰写“震旦-四年一学期(24/9-25/1)”的阶段修正计划</span>
-- [ ] <span>做完美的少战的语音包(War Thunder)→初试效果→在爱发电创建捐赠计划</span>
-- [ ] <span>使网站更加个性化</span>
-- [ ] <span>为网站添加“多语言”功能</span>
-- [ ] <span>为自己活着</span>
-<blockquote class="admonition bdm-important"><span class="bdm-title"><div>以下为2024年9月的日程安排参考</div></span></blockquote>
+- [ ] <span>【星空计划】关于民间小饭店的餐饮智能化需求调查。</span>
+- [ ] <span>【星空计划】继续个人网站的编写，学习通用框架、美术、通用高级语言、汇编等。</span>
+- [ ] <span>【星空计划】寻找新的三进制计算机结构，以此创造出有感情的机器。</span>
+- [ ] <span>【星空计划】定义“星空计划”。</span>
+- [ ] <span>【兴趣】做完美的少战的语音包(War Thunder)→初试效果→在爱发电创建捐赠计划</span>
+- [ ] <span>【网站】配置新域名(project-starfield.cn)</span>
+- [ ] <span>【网站】使 旧 · StarField 更加个性化</span>
+- [ ] <span>【网站】为 旧 · StarField 网站添加“多语言”功能</span>
+- [ ] <span>【基础】为自己活着。</span>
+
+
+<blockquote class="admonition bdm-important"><span class="bdm-title"><div>以下为 震旦-四年一学期(24/9-25/1)安排 参考</div></span></blockquote>
 
 ****
 
 以下为 震旦-四年一学期(24/9-25/1) 计划，最高优先级：
-- [ ] <span></span>
-- [ ] <span></span>
-- [ ] <span></span>
-- [ ] <span></span>
-- [ ] <span>绘画(入门)。</span>
-- [ ] <span>寻找最合适自己的笔记方式，建立高效的标记格式，建立清晰的命名格式。</span>
-- [ ] <span>上述目标包括本目标在计划过期前必须至少完成 4 个。</span>
+- [ ] <span>1. 撰写、实践并完善《自学计划》
+</span>
+- [ ] <span>2. 尽量一次通过 大学英语等级考试-四级(CET4)
+</span>
+- [ ] <span>3. 寻找最合适自己的笔记方式，建立高效的标记格式，建立清晰的命名格式。
+</span>
+- [ ] <span>4. 仅通过 CET4 后执行：专精 日语
+</span>
+- [ ] <span>5. 仅通过 CET4 后执行：专精 数学
+</span>
+- [ ] <span>6. 仅通过 CET4 后执行：专精 心理学
+</span>
+- [ ] <span>7. 仅通过 CET4 后执行：专精 哲学
+</span>
+- [ ] <span>8. 仅通过 CET4 后执行：绘画(入门)。
+</span>
+- [ ] <span>9. 仅通过 CET4 后执行：(更多尚且未知)
+</span>
+- [ ] <span>10. 上述目标包括本目标在计划过期前必须至少完成 2 个。</span>
 
 ****
 
