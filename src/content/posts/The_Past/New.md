@@ -1,5 +1,5 @@
 ---
-title: 20250123
+title: 2025年01月23日
 published: 2025-01-23
 description: '是时候为盛大的相聚收尾了...'
 image: ''
