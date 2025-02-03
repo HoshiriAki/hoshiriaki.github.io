@@ -1,14 +1,14 @@
 ---
 title: 'Считаем до трёх: три（数到三：三）'
 published: 2025-02-03
-description: ''
+description: '[搬运]好的，我们继续。本文将介绍如何制作三进制计数器。需要提醒的是，我的目标是打造一个基于三态逻辑的最简可编程硬件设备。......'
 image: ''
 tags: [Unauthorized archiving]
 category: 'Trit'
 draft: false 
 ---
 :::note[来源]
-以下内容来源于与 haqreu 的[Считаем до трёх](https://habr.com/ru/articles/328162/)，仅对其进行翻译，著作权归原作者所有。
+以下内容来源于与 haqreu 的[Считаем до трёх: три](https://habr.com/ru/articles/328162/)，仅对其进行翻译，著作权归原作者所有。
 :::
 ## 三进制计数器设计与实现
 

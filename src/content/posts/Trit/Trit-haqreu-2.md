@@ -1,7 +1,7 @@
 ---
 title: 'Считаем до трёх: два（数到三：二）'
 published: 2025-02-03
-description: ''
+description: '本系列文章聚焦三进制计算器的开发。上期我们构建了三进制多路复用器（TRIMUX）及加法器，本期重点探索**三进制存储单元**的设计。完整系列如下：......'
 image: ''
 tags: [Unauthorized archiving]
 category: 'Trit'
@@ -9,7 +9,7 @@ draft: false
 ---
 
 :::note[来源]
-以下内容来源于与 haqreu 的 [Считаем до трёх: два](https://habr.com/ru/articles/324650/)，仅对其进行翻译，著作权归原作者所有。
+以下内容来源于与 haqreu 的 [Считаем до трёх: два](https://habrahabr.ru/post/324650/)，仅对其进行翻译，著作权归原作者所有。
 :::
 ## 三进制存储单元设计与实现
 
