@@ -11,28 +11,25 @@ import { h } from 'hastscript'
  */
 export function GithubCardComponent(properties, children) {
  if (Array.isArray(children) && children.length !== 0)
-  return h("div",
-    { class: 'hidden' },
-    ['Invalid directive. ("github" directive must be leaf type "::github{repo="owner/repo"}")']
-  );
+    return h('div', { class: 'hidden' }, [
+      'Invalid directive. ("github" directive must be leaf type "::github{repo="owner/repo"}")',
+    ])
 
- if (!properties.repo || !properties.repo.includes("/"))
-  return h("div",
+  if (!properties.repo || !properties.repo.includes('/'))
+    return h(
+      'div',
     { class: 'hidden' },
-    'Invalid repository. ("repo" attributte must be in the format "owner/repo")'
-  );
+      'Invalid repository. ("repo" attributte must be in the format "owner/repo")',
+    )
 
-  const repo = properties.repo;
+  const repo = properties.repo
   const cardUuid = `GC${Math.random().toString(36).slice(-6)}` // Collisions are not important
 
-  const nAvatar = h(
-    `div#${cardUuid}-avatar`,
-    { class: "gc-avatar"},
-  )
+  const nAvatar = h(`div#${cardUuid}-avatar`, { class: 'gc-avatar' })
   const nLanguage = h(
     `span#${cardUuid}-language`,
-    { class: "gc-language" },
-    "Waiting..."
+    { class: 'gc-language' },
+    'Waiting...',
   )
 
   const nTitle = h(
@@ -80,6 +77,9 @@ export function GithubCardComponent(properties, children) {
       fetch('https://api.github.com/repos/${repo}', { referrerPolicy: "no-referrer" }).then(response => response.json()).then(data => {
         document.getElementById('${cardUuid}-card').href = data.html_url;
         document.getElementById('${cardUuid}-description').innerText = data.description.replace(/:[a-zA-Z0-9_]+:/g, '');
+        } else {
+          document.getElementById('${cardUuid}-description').innerText = "Description not set"
+        }
         document.getElementById('${cardUuid}-language').innerText = data.language;
         document.getElementById('${cardUuid}-forks').innerText = Intl.NumberFormat('en-us', { notation: "compact", maximumFractionDigits: 1 }).format(data.forks).replaceAll("\u202f", '');
         document.getElementById('${cardUuid}-stars').innerText = Intl.NumberFormat('en-us', { notation: "compact", maximumFractionDigits: 1 }).format(data.stargazers_count).replaceAll("\u202f", '');

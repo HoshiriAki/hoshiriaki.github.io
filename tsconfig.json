@@ -4,6 +4,7 @@
     "baseUrl": ".",
     "strictNullChecks": true,
     "allowJs": true,
+    "declaration": true,
     "plugins": [
       {
         "name": "@astrojs/ts-plugin"

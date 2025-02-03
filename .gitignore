@@ -22,3 +22,6 @@ pnpm-debug.log*
 
 .vercel
 src/components/Navbar - 副本.astro
+package-lock.json
+bun.lockb
+yarn.lock
