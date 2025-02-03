@@ -102,7 +102,15 @@ const jsonLd = {
                 <Content />
             </Markdown>
 
-            {licenseConfig.enable && <License title={entry.data.title} slug={entry.slug} pubDate={entry.data.published} class="mb-6 rounded-xl license-container onload-animation"></License>}
+            {(entry.data.license ?? licenseConfig.enable) && (
+		<License 
+   		 title={entry.data.title}
+    		slug={entry.slug}
+    		pubDate={entry.data.published}
+    		class="mb-6 rounded-xl license-container onload-animation"
+    		license={entry.data.license}
+ 		 ></License>
+		)}
 
         </div>
     </div>

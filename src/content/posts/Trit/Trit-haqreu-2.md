@@ -6,6 +6,7 @@ image: ''
 tags: [Unauthorized archiving]
 category: 'Trit'
 draft: false 
+license: false
 ---
 
 :::note[来源]

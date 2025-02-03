@@ -6,6 +6,7 @@ image: ''
 tags: [Unauthorized archiving]
 category: 'Trit'
 draft: false 
+license: false
 ---
 :::note[来源]
 以下内容来源于与 haqreu 的[Считаем до трёх: три](https://habr.com/ru/articles/328162/)，仅对其进行翻译，著作权归原作者所有。
